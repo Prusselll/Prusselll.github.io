@@ -1,8 +1,8 @@
 body {
-    background:darkblue;
-    color: white;
+    background:black;
+    color: yellow;
     padding: 30px;
-    font-family: arial;
+    font-family:fantasy;
 }
 
 #all-contents {
@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: green;
+    background: purple;
     margin: 0 auto;
     margin-bottom: 40px;
     display: flex;
@@ -23,7 +23,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: yellow;
     flex: 1;
     margin: 0;
 }
@@ -39,13 +39,14 @@ h1 {
 
 a {
     text-decoration: none;
-    color:#ffffff;
+    color:yellow ;
 }
 
 /* main container area beneath menu */
 main {
-    background: green;
+    background: purple;
     display: flex;
+    border-radius:40px
 }
 
 .sidebar {
@@ -54,7 +55,8 @@ main {
 }
 
 .sidebar-img {
-    width: 300px;
+    width: 450px;
+    border-radius:40px
 }
 
 .content {
@@ -64,7 +66,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 10px rgb(255, 255, 255) ridge;
+    border: 20px black ridge;
     padding: 8px;
 }
 
