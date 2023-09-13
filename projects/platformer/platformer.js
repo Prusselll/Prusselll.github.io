@@ -45,7 +45,8 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
    createPlatform(10,150,500,30);
    createPlatform(510,150,500,30);
-   createPlatform()
+   createPlatform(1000,260,500,40); 
+   
   
 
     
