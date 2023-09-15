@@ -62,18 +62,18 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-    createCollectable("grace", 330,350, 0,0); 
-    createCollectable("grace", 600,380,0,0); 
-    createCollectable("grace", 10,300,0,0 )
-    createCollectable("steve", 1100,250,0,0)
-    createCollectable("steve", 1100,520,0,0)
-    createCollectable("steve", 700,520,0,0)
-    createCollectable("steve", 1200,650,0,0)
-    createCollectable("grace", 800,650,0,0)
-    createCollectable("steve", 500,650,0,0)
-    createCollectable("grace", 200,650,0,0)
-    createCollectable("steve",330,520,0,0)
-    createCollectable("steve",0,610,0,0)
+    createCollectable("kiblast", 330,350, 0.5,1); 
+    createCollectable("kiblast", 600,380,0.5,1); 
+    createCollectable("kiblast", 10,300,0.5,1 );
+    createCollectable("kiblast", 1100,250,0.5,1);
+    createCollectable("kiblast", 1100,520,0.5,1);
+    createCollectable("kiblast", 700,520,0.5,1);
+    createCollectable("kiblast", 1200,650,0.5,1);
+    createCollectable("kiblast", 800,650,0.5,1);
+    createCollectable("kiblast", 500,650,0.5,1);
+    createCollectable("kiblast", 200,650,0.5,1);
+    createCollectable("kiblast",330,520,0.5,1);
+    createCollectable("kiblast",0,610,0.5,1);
 
 
 
