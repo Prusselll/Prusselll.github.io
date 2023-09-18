@@ -3,9 +3,9 @@ body {
 }
 
 canvas {
-  background-image:url("https://images6.alphacoders.com/132/1326038.jpg");
+ background-image:url("https://images6.alphacoders.com/132/1326038.jpg");
 background-repeat: no-repeat;
-background-size: 100%;
+background-size:100%;
 }
 img {
   display: none;
