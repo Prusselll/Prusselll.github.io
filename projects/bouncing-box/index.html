@@ -3,13 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Bouncing Box</title>
-	<script src="jquery.min.js"></script>90
+	<script src="jquery.min.js"></script>
 	<style>
 		
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: lime green;
+			background-color: white;
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -88,13 +88,13 @@
 			This Function will be called each time the box is clicked. Each time it is called,
 			it should increase the points total, increase the speed, and move the box to
 			the left side of the screen.
-			*/sa
+			*/
 			function handleBoxClick() {
 				if (speed > 0){
-					speed = speed + 3;
+					speed = speed += 3;
 				}
 				else if (speed < 0){
-					speed = speed - 3;
+					speed = speed -= 3;
 				}
 				positionX = 0;
 				points = points+1;
